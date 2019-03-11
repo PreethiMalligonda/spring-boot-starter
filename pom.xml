@@ -146,5 +146,14 @@
         <scope>test</scope>
       </dependency>
   </dependencies>
-
+<distributionManagement>
+        
+        <repository>
+            <id>nexus-server</id>
+            <name>dev</name>
+            <url>http://192.168.56.25:8081/nexus/content/repositories/001/</url>
+        </repository>
+        
+    </distributionManagement>
+    
 </project>
